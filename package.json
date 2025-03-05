@@ -15,7 +15,7 @@
   "author": "Cao.C.Đạt",
   "license": "GPL-3.0",
   "dependencies": {
-    "@distube/ytdl-core": "^4.15.9",
+    "@distube/ytdl-core": "^4.16.4",
     "@google/generative-ai": "^0.17.0",
     "@miraipr0ject/assets": "^1.0.9",
     "acorn": "^8.10.0",
