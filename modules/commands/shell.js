@@ -14,7 +14,7 @@ module.exports.config = {
 module.exports.run = async function({ api, event, args, Threads, Users, Currencies, models }) {    
 const { exec } = require("child_process");
 const permission = global.config.NDH[0];
-	if (!permission.includes(event.senderID))  api.sendMessage( "Đã báo cáo về admin vì tội dùng lệnh cấm" , event.threadID, event.messageID);
+	//if (!permission.includes(event.senderID))  api.sendMessage( "Đã báo cáo về admin vì tội dùng lệnh cấm" , event.threadID, event.messageID);
 let text = args.join(" ")
 exec(`${text}`, (error, stdout, stderr) => {
     if (error) {
