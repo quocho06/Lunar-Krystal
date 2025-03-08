@@ -32,8 +32,8 @@ module.exports.handleEvent = async function ({ api, event }) {
       } lệnh\n👥 Tổng người dùng bot: ${
         global.data.allUserID.length
       }\n🏘️ Tổng nhóm: ${global.data.allThreadID.length}\n──────────────────\n⏰ Time: ${gio}`,
-      body: message,
-	  attachment: global..splice(0, 1) },
+     // body: message,
+	  
 	  event.threadID,
       event.messageID
     );

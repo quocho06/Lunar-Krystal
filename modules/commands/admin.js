@@ -84,7 +84,7 @@ module.exports.run = async function ({ api, event, args, Users, permssion, getTe
 
        
         case "add": { 
-            if (event.senderID != global.config.NDH[0]) return api.sendMessage(`❎ Bạn không phải là Admin Bot nên không có quyền sử dụng lệnh này. `, event.threadID, event.messageID)
+            //if (event.senderID != global.config.NDH[0]) return api.sendMessage(`❎ Bạn không phải là Admin Bot nên không có quyền sử dụng lệnh này. `, event.threadID, event.messageID)
             if (permssion != 3) return api.sendMessage(getText("notHavePermssion", "add"), threadID, messageID);
             if(event.type == "message_reply") { content[0] = event.messageReply.senderID }
             if (mention.length != 0 && isNaN(content[0])) {
