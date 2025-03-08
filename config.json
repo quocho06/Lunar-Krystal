@@ -7,7 +7,7 @@
         "status": true,
         "icon": "❤"
     },
-    "notiGroup": false,
+    "notiGroup": true,
     "NOTIFICATION": true,
     "allowInbox": false,
     "commandDisabled": [],
@@ -20,7 +20,8 @@
     "PREFIX": "/",
     "ADMINBOT": [
         "100011855520258",
-        "100017377907645"
+        "100017377907645",
+        "61564862070085"
     ],
     "NDH": [
         ""
